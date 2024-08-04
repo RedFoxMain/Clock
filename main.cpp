@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <iostream>
 
-unsigned int delayForSleep = 1000;
+int delayForSleep = 1000;
 
 void Clock(int digits[8]){
 	int limits[8] = {9,9,2,4,6,9,6,9};
